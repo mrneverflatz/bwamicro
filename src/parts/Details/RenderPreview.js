@@ -11,7 +11,6 @@ export default function RenderPreview({ previews }) {
       <Accordion>
         {(Active, toggle) => {
           return previews?.map((item, index) => {
-            console.log(item);
             return (
               <Item
                 id={item.id}
